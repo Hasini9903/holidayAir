@@ -1,0 +1,15 @@
+
+
+@import './vendors.css';
+@import './main.css';
+@import './custom.css';
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+@import "swiper/css/scrollbar";
+@import "swiper/css/effect-cards";
+@import "swiper/css/effect-cards";
+@import 'react-modal-video/css/modal-video.css';
+@import '../../node_modules/aos/dist/aos.css';
+@import "react-multi-date-picker/styles/colors/yellow.css"

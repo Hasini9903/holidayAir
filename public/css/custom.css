@@ -1,0 +1,336 @@
+
+
+.swiperPagination1 .swiper-pagination-bullet {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 20px !important;
+    background-color: var(--color-dark-1) !important;
+    transition: .3s !important;
+    opacity: 1 !important;
+}
+.swiperPagination1 .swiper-pagination-bullet-active {
+    width: 18px !important;
+
+
+}
+.custom-input input{
+    width: fit-content !important;
+    height: fit-content !important;
+    padding-left: 0px !important;
+    cursor: pointer;
+}
+.roadMap2 .roadmap__content{
+    transition: 0.4s;
+    max-height: 0px !important;
+    overflow: hidden !important;
+}
+.roadMap2 .roadmap__content.active{
+    max-height: 200px !important;
+
+}
+.roadMap2 .roadmap__title{
+    cursor: pointer;
+}
+
+
+.modal{
+    /* The Modal (background) */
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px;
+    overflow: auto;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+  .activeImageLightBox{
+    opacity: 1;
+    visibility: visible;
+  }
+  .modal .fadein {
+    /* animation: fadeInImage 0.3s linear 0s 1  ; */
+
+  }
+  /* Modal Content */
+  .modal .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+  }
+  
+  /* The Close Button */
+  .modal .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    box-sizing: border-box;
+   
+
+  }
+  .modal .close:hover{
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+  
+ 
+  
+  .modal .mySlides {
+    display: none;
+    height: 70%;
+    box-sizing: border-box;
+    margin: auto auto;
+  }
+  
+  .modal .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .modal .prev,
+  .modal .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    
+  }
+  .modal .prev:hover,
+  .modal .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+
+  }
+  
+  /* Position the "next button" to the right */
+  .modal  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+   
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  
+  
+  /* Number text (1/3 etc) */
+  .modal  .numbertext {
+    color: #000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .modal  img {
+    margin-bottom: -4px;
+  }
+  
+  .modal  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .modal   .demo {
+    opacity: 0.6;
+  }
+  
+  .modal  .active:hover,
+  .modal  .demo:hover {
+opacity: 1;
+  }
+  
+  .modal  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .modal  .hover-shadow :hover {
+   
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   
+  }
+
+  .toursingle5 .-top-320 {
+    margin-top: -320px;
+  }
+  
+  @media (max-width: 991px) {
+    .toursingle5 .-top-320 {
+      margin-top: 0;
+    }
+  }
+
+  .activeMenu{
+    color: var(--color-accent-1) !important;
+  }
+
+
+  .rmdp-range{
+    background-color: var(--color-accent-1) !important;
+  }
+  .rmdp-today span{
+    background-color: var(--bs-yellow) !important;
+  }
+  .rmdp-day:not(.rmdp-disabled,.rmdp-day-hidden) span:hover{
+    background-color: var(--color-accent-1) !important;
+  }
+  .rmdp-week-day{
+    color: var(--color-accent-1) !important;
+  }
+  .rmdp-arrow{
+    border-color: var(--color-accent-1) !important;
+  }
+ 
+  @media (max-width:1150px) {
+    
+ 
+  .custom-dd-container2{
+    flex: 1;
+    width: 100%;
+    padding: 0px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+   
+  }
+ 
+ }
+ @media (max-width:450px){
+ .pagination__count >*{
+  width: 30px;
+  height: 30px;
+
+ }
+ .customStylePaginationPre{
+  margin-right: 0 !important;
+ }
+ .customStylePaginationNext{
+  margin-left: 0 !important;
+ }
+}
+@media (max-width:600px) {
+    
+ 
+  .custom-dd-container{
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0px;
+   
+  }
+ 
+ }
+
+ .-is-sticky .dnStiky{
+  display: none !important;
+
+ }
+ .dnStiky{
+  color: #fff;
+ }
+ .dnStiky:hover{
+  color: var(--color-dark-1);
+  
+ }
+
+.activeImageLightBox img {
+  background-color: #000;
+}
+.activeImageLightBox .numbertext {
+  background-color: #000;
+  color: #fff;
+}
+.calenderTourSongle .rmdp-shadow{
+
+  margin-top: 20px;
+
+}
+@media (max-width:1024px) {
+  .dashboard__sidebar {
+  
+    max-width: 0px;
+    
+  overflow: hidden;
+  
+  }
+  .dashboard.-is-sidebar-visible .dashboard__sidebar {
+    max-width: 350px;
+  
+  
+  }
+  .dashboard.-is-sidebar-visible .dashboard__content {
+    transform: none !important;
+  
+    padding-left: 0px !important;
+  }
+  
+}
+
+.dashboard__sidebar_header{
+  position: relative;
+}
+
+.closeSidebar{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+
+}
+@media (max-width:1024px) {
+ 
+  .closeSidebar{
+    display: block;
+  }
+}
+.rmdp-container{
+  width: 199px !important;
+}
+   @media (max-width: 1199px) {
+    .header.-type-3 .headerMobile__left,
+ .header.-type-8 .headerMobile__left,
+  .header.-type-9 .headerMobile__left ,
+   .header.-type-10
+    .headerMobile__left {
+      display: block !important;
+    }
+  }
+.hiddenButtonBooking{
+  visibility: hidden;
+  opacity: 0;
+
+} 
+.ButtonBooking{
+  transition: 0.4s;
+}
