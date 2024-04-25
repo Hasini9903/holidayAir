@@ -6,7 +6,7 @@ import React from "react";
 
 export default function PopulerTours() {
   return (
-    <section className="layout-pt-xl layout-pb-xl">
+    <section className="layout-pt-lg layout-pb-sm">
       <div className="container">
         <div className="row justify-between items-end y-gap-10">
           <div className="col-auto">
@@ -49,13 +49,20 @@ export default function PopulerTours() {
                   </button>
                 </div>
 
-                <div className="tourCard__content px-20 py-10">
-                  <div className=" items-center ">
-                    <div className="tourCard__location d-flex items-center text-13 text-light-2">
+                <div className="tourCard__content px-20 pb-10">
+                  <div className=" items-center justify-content-center align-items-center " >
+                    <div className=" d-flex justify-content-center align-items-center tourCard__location d-flex items-center text-13 text-light-2">
                       <i className="icon-pin d-flex text-16 text-light-2 mr-5"></i>
                       {elm.location}
                     </div>
-                    <div className="tourCard__location d-flex items-center text-13 text-light-2">
+                    <div className="d-flex justify-content-center align-items-center">
+                        <img src="/img/tourCards/1/down-arrow.png" alt="Image description" className="mt-2" style={{
+                        height: "15px",
+                        width: "15px",}} />
+
+                    </div>
+                    
+                    <div className=" d-flex justify-content-center align-items-center tourCard__location d-flex items-center text-13 text-light-2">
                       <i className="icon-pin d-flex text-16 text-light-2 mr-5 "></i>
                       {elm.location}
                     </div>
