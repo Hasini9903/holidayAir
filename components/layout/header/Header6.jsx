@@ -44,11 +44,11 @@ export default function Header6() {
               className="header__menuBtn js-menu-button"
               onClick={() => setMobileMenuOpen(true)}
             >
-              <i className="icon-main-menu text-white"></i>
+              <i className="icon-main-menu "></i>
             </button>
           </div>
 
-          <div className="header__left xl:d-none text-white">
+          <div className="header__left xl:d-none">
             <HeaderSerch white={true} />
           </div>
 
@@ -58,7 +58,7 @@ export default function Header6() {
                 <Image
                   width="167"
                   height="32"
-                  src="/img/general/logo-light.svg"
+                  src="/img/general/logo-holiday.png"
                   alt="logo icon"
                 />
               </Link>
@@ -70,33 +70,34 @@ export default function Header6() {
               onClick={() => pageNavigate("/tour-list-1")}
               className="d-flex"
             >
-              <i className="icon-search text-white text-18"></i>
+              <i className="icon-search  text-18"></i>
             </button>
 
             <button
               onClick={() => pageNavigate("/login")}
               className="d-flex ml-20"
             >
-              <i className="icon-person text-white text-18"></i>
+              <i className="icon-person  text-18"></i>
             </button>
           </div>
 
           <div className="header__right">
-            <div className="text-white">
+            <div className="text-black">
               <Currency
                 parentClass={
-                  "headerDropdown -hover-light text-white js-form-dd"
+                  "headerDropdown -hover-light  js-form-dd"
                 }
               />
             </div>
 
-            <Link href="/register" className="text-white ml-10">
+            <Link href="/register" className=" ml-10">
               Sign up
             </Link>
 
             <Link
               href="/login"
-              className="button -sm -dark-1 bg-white rounded-200 ml-30"
+              
+              className="button -sm -dark-1  rounded-200 ml-30"
             >
               Log in
             </Link>
@@ -105,7 +106,7 @@ export default function Header6() {
               className="header__menuBtn ml-30 js-menu-button"
               onClick={() => setMobileMenuOpen(true)}
             >
-              <i className="icon-main-menu text-white"></i>
+              <i className="icon-main-menu "></i>
             </button>
           </div>
         </div>

@@ -1,7 +1,7 @@
 export const tourData = [
   {
     id: 1,
-    imageSrc: "/img/tourCards/1/1.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "Paris, France",
     title: "Centipede Tour - Guided Arizona Desert Tour by ATV",
     ratingCount: 243,
@@ -13,7 +13,7 @@ export const tourData = [
   },
   {
     id: 2,
-    imageSrc: "/img/tourCards/1/2.png",
+    imageSrc: "/img/tourCards/1/trip1.png",
     location: "New York, USA",
     title: "Molokini and Turtle Town Snorkeling Adventure Aboard",
     ratingCount: 243,
@@ -25,7 +25,7 @@ export const tourData = [
   },
   {
     id: 3,
-    imageSrc: "/img/tourCards/1/3.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "London, UK",
     title: "Westminster Walking Tour & Westminster Abbey Entry",
     ratingCount: 243,
@@ -37,7 +37,7 @@ export const tourData = [
   },
   {
     id: 4,
-    imageSrc: "/img/tourCards/1/4.png",
+    imageSrc: "/img/tourCards/1/trip1.png",
     location: "New York, USA",
     title: "All Inclusive Ultimate Circle Island Day Tour with Lunch",
     ratingCount: 243,
@@ -128,7 +128,7 @@ export const tourDataTwo = [
   },
   {
     id: 10,
-    imageSrc: "/img/tourCards/3/2.png",
+    imageSrc: "/img/tourCards/3/trip2.png",
     badgeText: "",
     location: "Paris, France",
     title:

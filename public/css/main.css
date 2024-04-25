@@ -107,6 +107,7 @@
   --color-accent-1-dark: #CE5A25;
   --color-accent-2: #4A43C4;
   --color-dark-1: #05073C;
+  --color-dark-2: #3c84d6;
   --color-blue-1: #1967D2;
   --color-red-1: #D93025;
   --color-red-2: #F64E60;
@@ -722,11 +723,17 @@ button:focus {
   color: white !important;
 }
 
+.button.-dark-1 {
+  border-color: var(--color-dark-2);
+  background-color: var(--color-dark-2) !important;
+  color: white !important;
+}
 .button.-dark-1:hover {
   border-color: var(--color-dark-1);
   background-color: var(--color-dark-1) !important;
   color: white !important;
 }
+
 
 .button.-outline-dark-1 {
   border-color: var(--color-dark-1);
@@ -1172,7 +1179,7 @@ button:focus {
 
 .button.-outline-white:hover {
   background-color: white !important;
-  color: var(--color-dark-1) !important;
+  color: var(--color-dark-2) !important;
 }
 
 .play-button {
@@ -2565,7 +2572,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header.-type-3 .desktopNav > * a:hover {
-  color: var(--color-dark-1);
+  color: var(--color-dark-2);
 }
 
 @media (max-width: 991px) {
@@ -2824,6 +2831,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header.-type-7 {
   position: fixed;
+  /* background-color: var(--color-white); */
   top: 0;
   left: 0;
   right: 0;
@@ -2831,7 +2839,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header.-type-7.-is-sticky {
-  background-color: var(--color-dark-1);
+  background-color: var(--color-white);
+  color: #000000;
 }
 
 .header.-type-7 .header__container {

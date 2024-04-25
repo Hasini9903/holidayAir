@@ -1,31 +1,33 @@
-import ArticlesThree from "@/components/homes/articles/ArticlesThree";
+import ArticlesOne from "@/components/homes/articles/ArticlesOne";
 import Banner from "@/components/homes/banners/Banner";
-import BannerOne from "@/components/homes/banners/BannerOne";
-import DestinationsOne from "@/components/homes/destinations/DestinationsOne";
-import FeaturesOne from "@/components/homes/features/FeaturesOne";
-import Hero1 from "@/components/homes/heros/Hero1";
+import Banner11 from "@/components/homes/banners/Banner11";
+import TopAttractions from "@/components/homes/destinations/TopAttractions";
+import TrendingDestinations from "@/components/homes/destinations/TrendingDestinations";
+import Hero7 from "@/components/homes/heros/Hero7";
+
 import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
-import TourTypeOne from "@/components/homes/tourTypes/TourTypeOne";
-import Tour1 from "@/components/homes/tours/Tour1";
-import TourSlderOne from "@/components/homes/tours/TourSlderOne";
-import FooterOne from "@/components/layout/footers/FooterOne";
-import Header1 from "@/components/layout/header/Header1";
+import PopulerTours from "@/components/homes/tours/PopulerTours";
+import TourSlider4 from "@/components/homes/tours/TourSlider4";
+import FooterFive from "@/components/layout/footers/FooterFive";
+import Header6 from "@/components/layout/header/Header6";
+import React from "react";
 
 export default function Home() {
   return (
     <main>
-      <Header1 />
-      <Hero1 />
-      <FeaturesOne />
-      <DestinationsOne />
-      <Tour1 />
-      <Banner />
-      <TourTypeOne />
-      <TourSlderOne />
-      <TestimonialOne />
-      <BannerOne />
-      <ArticlesThree />
-      <FooterOne />
+       <Header6 />
+        <Hero7 />
+        <TourSlider4 />
+        <TrendingDestinations />
+        <Banner />
+        <TopAttractions />
+        <div className="bg-accent-1-05">
+          <TestimonialOne />
+        </div>
+        <PopulerTours />
+        <Banner11 />
+        <ArticlesOne />
+        <FooterFive />
     </main>
   );
 }

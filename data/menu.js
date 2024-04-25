@@ -1,11 +1,11 @@
 export const homes = [
-  { id: 11, title: "Home 01", href: "/" },
+  { id: 17, title: "Home 01", href: "/" },
   { id: 12, title: "Home 02", href: "/home-2" },
   { id: 13, title: "Home 03", href: "/home-3" },
   { id: 14, title: "Home 04", href: "/home-4" },
   { id: 15, title: "Home 05", href: "/home-5" },
   { id: 16, title: "Home 06", href: "/home-6" },
-  { id: 17, title: "Home 07", href: "/home-7" },
+  { id: 11, title: "Home 07", href: "/home-7" },
   { id: 18, title: "Home 08", href: "/home-8" },
   { id: 19, title: "Home 09", href: "/home-9" },
   { id: 110, title: "Home 10", href: "/home-10" },

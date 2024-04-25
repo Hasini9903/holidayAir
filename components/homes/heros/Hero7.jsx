@@ -13,28 +13,28 @@ import Image from "next/image";
 const slides = [
   {
     id: 1,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero/7/holy-hero1n.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",
   },
   {
     id: 2,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero/7/holy-hero3.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",
   },
   {
     id: 3,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero/7/holy-hero4.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",
   },
   {
     id: 4,
-    imageSrc: "/img/hero/7/1.jpg",
+    imageSrc: "/img/hero/7/holy-hero2.jpg",
     subtitle:
       "Search, compare and book 15,000+ multiday tours all over the world.",
     title: "Tours and Trip packages, Globally",
