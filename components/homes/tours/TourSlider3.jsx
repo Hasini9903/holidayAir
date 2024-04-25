@@ -62,7 +62,7 @@ export default function TourSlider3() {
                 onClick={() => setDdActive((pre) => !pre)}
               >
                 <span className="js-title">
-                  {travelStyle ? travelStyle : "By Travel Style"}
+                  {travelStyle ? travelStyle : "By Deals"}
                 </span>
                 <i className="icon-chevron-down ml-10"></i>
               </div>

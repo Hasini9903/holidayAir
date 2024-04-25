@@ -36,7 +36,7 @@ export default function PopulerTours() {
                     <Image
                       width={421}
                       height={301}
-                      src={elm.imageSrc}
+                      src={elm.imageSrcw}
                       alt="image"
                       className="img-ratio"
                     />
@@ -50,17 +50,23 @@ export default function PopulerTours() {
                 </div>
 
                 <div className="tourCard__content px-20 py-10">
-                  <div className="tourCard__location d-flex items-center text-13 text-light-2">
-                    <i className="icon-pin d-flex text-16 text-light-2 mr-5"></i>
-                    {elm.location}
+                  <div className=" items-center ">
+                    <div className="tourCard__location d-flex items-center text-13 text-light-2">
+                      <i className="icon-pin d-flex text-16 text-light-2 mr-5"></i>
+                      {elm.location}
+                    </div>
+                    <div className="tourCard__location d-flex items-center text-13 text-light-2">
+                      <i className="icon-pin d-flex text-16 text-light-2 mr-5 "></i>
+                      {elm.location}
+                    </div>
                   </div>
 
-                  <h3 className="tourCard__title text-16 fw-500 mt-5">
+                  {/* <h3 className="tourCard__title text-16 fw-500 mt-5">
                     <span>{elm.title}</span>
-                  </h3>
+                  </h3> */}
 
                   <div className="tourCard__rating text-13 mt-5">
-                    <div className="d-flex items-center">
+                    {/* <div className="d-flex items-center">
                       <div className="d-flex x-gap-5 pr-10">
                         <Stars star={elm.rating} />
                       </div>
@@ -68,18 +74,28 @@ export default function PopulerTours() {
                       <span className="text-dark-1 text-13">
                         {elm.rating} ({elm.ratingCount})
                       </span>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="d-flex justify-between items-center border-1-top text-13 text-dark-1 pt-10 mt-10">
                     <div className="d-flex items-center">
-                      <i className="icon-clock text-16 mr-5"></i>
-                      {elm.duration}
+                      NewYork
                     </div>
 
                     <div>
                       From <span className="text-16 fw-500">${elm.price}</span>
                     </div>
+                    
+                  </div>
+                  <div className="d-flex justify-between items-center border-1-top text-13 text-dark-1 pt-10 mt-10">
+                    <div className="d-flex items-center">
+                      Boston
+                    </div>
+
+                    <div>
+                      From <span className="text-16 fw-500">${elm.price}</span>
+                    </div>
+                    
                   </div>
                 </div>
               </Link>

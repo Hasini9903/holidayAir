@@ -18,7 +18,9 @@ if (typeof window !== "undefined") {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+      <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+      </head>
       <body className={dmsans.className}>
         <Wrapper>{children}</Wrapper>
         <ScrollToTop />

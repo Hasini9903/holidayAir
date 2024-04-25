@@ -99,7 +99,7 @@ export default function TourSlider4() {
                                 className="img-ratio"
                               />
 
-                              <div className="tourCard__shape"></div>
+                              {/* <div className="tourCard__shape"></div> */}
                             </div>
 
                             <button className="tourCard__favorite">

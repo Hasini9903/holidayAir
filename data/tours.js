@@ -2,7 +2,8 @@ export const tourData = [
   {
     id: 1,
     imageSrc: "/img/tourCards/1/trip2.png",
-    location: "Paris, France",
+    imageSrcw: "/img/tourCards/1/asia.jpg",
+    location: "India, Asia",
     title: "Centipede Tour - Guided Arizona Desert Tour by ATV",
     ratingCount: 243,
     rating: 4.8,
@@ -15,7 +16,8 @@ export const tourData = [
   {
     id: 2,
     imageSrc: "/img/tourCards/1/trip1.png",
-    location: "New York, USA",
+    imageSrcw: "/img/tourCards/1/Aus.jpg",
+    location: "Australia",
     title: "Molokini and Turtle Town Snorkeling Adventure Aboard",
     ratingCount: 243,
     days:"4 days",
@@ -28,7 +30,8 @@ export const tourData = [
   {
     id: 3,
     imageSrc: "/img/tourCards/1/trip2.png",
-    location: "London, UK",
+    imageSrcw: "/img/tourCards/1/dubai.jpg",
+    location: "Mid-east",
     title: "Westminster Walking Tour & Westminster Abbey Entry",
     ratingCount: 243,
     rating: 4.8,
@@ -41,7 +44,8 @@ export const tourData = [
   {
     id: 4,
     imageSrc: "/img/tourCards/1/trip1.png",
-    location: "New York, USA",
+    imageSrcw: "/img/tourCards/1/mid_east.jpg",
+    location: "Dubai",
     title: "All Inclusive Ultimate Circle Island Day Tour with Lunch",
     ratingCount: 243,
     rating: 4.8,

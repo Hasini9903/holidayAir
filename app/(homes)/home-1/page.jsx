@@ -1,6 +1,10 @@
 import ArticlesOne from "@/components/homes/articles/ArticlesOne";
 import Banner from "@/components/homes/banners/Banner";
 import Banner11 from "@/components/homes/banners/Banner11";
+import BrandsFour from "@/components/homes/brands/BannerFour";
+import BrandsOne from "@/components/homes/brands/BrandsOne";
+import BrandsThree from "@/components/homes/brands/BrandsThree";
+import BrandsTwo from "@/components/homes/brands/BrandsTwo";
 import TopAttractions from "@/components/homes/destinations/TopAttractions";
 import TrendingDestinations from "@/components/homes/destinations/TrendingDestinations";
 import Hero7 from "@/components/homes/heros/Hero7";
@@ -24,13 +28,14 @@ export default function Home() {
         <TourSlider3 />
         <TourSlider2 />
         <PopulerTours />
+        <BrandsFour/>
         <TrendingDestinations />
         <Banner />
+        
         <TopAttractions />
         <div className="bg-accent-1-05">
           <TestimonialOne />
         </div>
-       
         <Banner11 />
         <ArticlesOne />
         <FooterFive />
