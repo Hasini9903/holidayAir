@@ -82,13 +82,13 @@ export default function Header6() {
           </div>
 
           <div className="header__right">
-            <div className="text-black">
+            {/* <div className="text-black">
               <Currency
                 parentClass={
                   "headerDropdown -hover-light  js-form-dd"
                 }
               />
-            </div>
+            </div> */}
 
             <Link href="/register" className=" ml-10">
               Sign up

@@ -40,12 +40,13 @@ export default function TourSlider3() {
   }, []);
 
   return (
-    <section className="layout-pt-xl layout-pb-xl">
+    <section className="layout-pt-xl layout-pb-sm">
       <div className="container">
         <div className="row y-gap-10 justify-between items-end y-gap-10">
           <div className="col-auto">
             <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
-              Featured Trips
+            HOT DEALS
+
             </h2>
           </div>
 
@@ -158,8 +159,8 @@ export default function TourSlider3() {
 
                         <div className="d-flex justify-between items-center border-1-top text-13 text-dark-1 pt-10 mt-10">
                           <div className="d-flex items-center">
-                            <i className="icon-clock text-16 mr-5"></i>
-                            {elm.duration}
+                            {/* <i className="icon-clock text-16 mr-5"></i>
+                            {elm.duration} */}
                           </div>
 
                           <div>

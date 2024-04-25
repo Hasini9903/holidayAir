@@ -15,7 +15,7 @@ export default function PopulerTours() {
               data-aos-delay=""
               className="text-30 md:text-24"
             >
-              Find Popular Tours
+              WORLDWIDE FLIGHT OFFERS
             </h2>
           </div>
         </div>

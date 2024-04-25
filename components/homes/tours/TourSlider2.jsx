@@ -45,7 +45,8 @@ export default function TourSlider2() {
         <div className="row y-gap-10 justify-between items-end y-gap-10">
           <div className="col-auto">
             <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
-              Featured Trips
+            HOLIDAY OFFERS
+
             </h2>
           </div>
 
@@ -138,8 +139,8 @@ export default function TourSlider2() {
 
                       <div className="tourCard__content px-20 py-10">
                         <div className="tourCard__location d-flex items-center text-13 text-light-2">
-                          <i className="icon-pin d-flex text-16 text-light-2 mr-5"></i>
-                          {elm.location}
+                          {/* <i className="icon-pin d-flex text-16 text-light-2 mr-5"></i>
+                          {elm.location} */}
                         </div>
 
                         <h3 className="tourCard__title text-16 fw-500 mt-5">
@@ -159,7 +160,7 @@ export default function TourSlider2() {
                         <div className="d-flex justify-between items-center border-1-top text-13 text-dark-1 pt-10 mt-10">
                           <div className="d-flex items-center">
                             <i className="icon-clock text-16 mr-5"></i>
-                            {elm.duration}
+                            {elm.days}
                           </div>
 
                           <div>

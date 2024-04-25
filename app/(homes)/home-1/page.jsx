@@ -7,7 +7,10 @@ import Hero7 from "@/components/homes/heros/Hero7";
 
 import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
 import PopulerTours from "@/components/homes/tours/PopulerTours";
+import TourSlider2 from "@/components/homes/tours/TourSlider2";
+import TourSlider3 from "@/components/homes/tours/TourSlider3";
 import TourSlider4 from "@/components/homes/tours/TourSlider4";
+import TourSlider5 from "@/components/homes/tours/TourSlider5";
 import FooterFive from "@/components/layout/footers/FooterFive";
 import Header6 from "@/components/layout/header/Header6";
 import React from "react";
@@ -18,13 +21,16 @@ export default function Home() {
        <Header6 />
         <Hero7 />
         <TourSlider4 />
+        <TourSlider3 />
+        <TourSlider2 />
+        <PopulerTours />
         <TrendingDestinations />
         <Banner />
         <TopAttractions />
         <div className="bg-accent-1-05">
           <TestimonialOne />
         </div>
-        <PopulerTours />
+       
         <Banner11 />
         <ArticlesOne />
         <FooterFive />

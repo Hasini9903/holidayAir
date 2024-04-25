@@ -1,6 +1,6 @@
 "use client";
 import Calender from "@/components/common/dropdownSearch/Calender";
-import Location from "@/components/common/dropdownSearch/Location";
+import Location from "@/components/common/dropdownSearch/LocationFrom";
 import TourType from "@/components/common/dropdownSearch/TourType";
 import { useRouter } from "next/navigation";
 import Image from "next/image";

@@ -6,10 +6,11 @@ export const tourData = [
     title: "Centipede Tour - Guided Arizona Desert Tour by ATV",
     ratingCount: 243,
     rating: 4.8,
-    duration: "4 days",
+    days:"4 days",
+    duration: "12/04/2025",
     price: 189.25,
     spead:'Steady',
-    feature:'Advanture'
+    feature:'DUBAI'
   },
   {
     id: 2,
@@ -17,11 +18,12 @@ export const tourData = [
     location: "New York, USA",
     title: "Molokini and Turtle Town Snorkeling Adventure Aboard",
     ratingCount: 243,
+    days:"4 days",
     rating: 4.8,
-    duration: "4 days",
+    duration: "12/04/2025",
     price: 225.0,
     spead:'Grind',
-    feature:'Nature'
+    feature:'MIDDLE EAST'
   },
   {
     id: 3,
@@ -30,10 +32,11 @@ export const tourData = [
     title: "Westminster Walking Tour & Westminster Abbey Entry",
     ratingCount: 243,
     rating: 4.8,
-    duration: "4 days",
+    days:"4 days",
+    duration: "12/04/2025",
     price: 943.0,
     spead:'Grind',
-    feature:'Food'
+    feature:'ASIA'
   },
   {
     id: 4,
@@ -42,10 +45,11 @@ export const tourData = [
     title: "All Inclusive Ultimate Circle Island Day Tour with Lunch",
     ratingCount: 243,
     rating: 4.8,
-    duration: "4 days",
+    days:"4 days",
+    duration: "12/04/2025",
     price: 771.0,
     spead:'Furious',
-    feature:'Advanture'
+    feature:'MIDDLE EAST'
   },
   {
     id: 5,
@@ -54,22 +58,24 @@ export const tourData = [
     title: "Space Center Houston Admission Ticket",
     ratingCount: 243,
     rating: 4.8,
-    duration: "4 days",
+    days:"4 days",
+    duration: "12/04/2025",
     price: 189.25,
     spead:'Furious',
-    feature:'Food'
+    feature:'DUBAI'
   },
   {
     id: 6,
     imageSrc: "/img/tourCards/1/6.png",
     location: "New York, USA",
-    title: "Clear Kayak Tour of Shell Key Preserve and Tampa Bay Area",
+    title: "Clear Kayak Tour of Shell Key Preserve and Tampa Bay ",
     ratingCount: 243,
     rating: 4.8,
-    duration: "4 days",
+    days:"4 days",
+    duration: "12/04/2025",
     price: 225.0,
     spead:'Furious',
-    feature:'Food'
+    feature:'ASIA'
   },
   {
     id: 7,
@@ -78,10 +84,11 @@ export const tourData = [
     title: "History and Hauntings of Salem Guided Walking Tour",
     ratingCount: 243,
     rating: 4.8,
-    duration: "4 days",
+    days:"4 days",
+    duration: "12/04/2025",
     price: 943.0,
     spead:'Steady',
-    feature:'Nature'
+    feature:'MIDDLE EAST'
   },
   {
     id: 8,
@@ -91,10 +98,11 @@ export const tourData = [
       "Mauna Kea Summit Sunset and Stars Free Astro Photos Hilo Kona Waikoloa Pick Up",
     ratingCount: 243,
     rating: 4.8,
-    duration: "4 days",
+    days:"4 days",
+    duration: "12/04/2025",
     price: 771.0,
     spead:'Steady',
-    feature:'Food'
+    feature:'ASIA'
   },
   // Add more tour objects here...
 ];
@@ -266,26 +274,28 @@ export const tourDataThree = [
     title: "Centipede Tour - Guided Arizona Desert Tour by ATV",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 189.25,
     lat: 40.7279707552121,
     long: -74.07152705896405,
     spead:'Fast',
-    feature:'Advanture'
+    feature:'ASIA'
   },
   {
     id: 16,
     imageSrc: "/img/tourCards/1/2.png",
     location: "New York, USA",
+    days:"4 days",
     title: "Molokini and Turtle Town Snorkeling Adventure Aboard",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
     price: 225.0,
     lat: 34.1738017565271,
     long: -118.34227408812067,
     spead:'Fast',
-    feature:'Food'
+    feature:'ASIA'
   },
   {
     id: 17,
@@ -294,12 +304,13 @@ export const tourDataThree = [
     title: "Westminster Walking Tour & Westminster Abbey Entry",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 943.0,
     lat: 29.38690953884771,
     long: -94.91651439187791,
     spead:'Steady',
-    feature:'Advanture'
+    feature:'ASIA'
   },
   {
     id: 18,
@@ -308,12 +319,13 @@ export const tourDataThree = [
     title: "Space Center Houston Admission Ticket",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 189.25,
     lat: 41.62158564223682,
     long: -82.15625432727268,
     spead:'Steady',
-    feature:'Food'
+    feature:'ASIA'
   },
   {
     id: 19,
@@ -322,12 +334,13 @@ export const tourDataThree = [
     title: "Clear Kayak Tour of Shell Key Preserve and Tampa Bay Area",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 225.0,
     lat: 39.62158564223682,
     long: -80.15625432727268,
     spead:'Fast',
-    feature:'Advanture'
+    feature:'DUBAI'
   },
   {
     id: 20,
@@ -336,12 +349,13 @@ export const tourDataThree = [
     title: "History and Hauntings of Salem Guided Walking Tour",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 943.0,
     lat: 40.7279707552121,
     long: -74.07152705896405,
     spead:'Grind',
-    feature:'Advanture'
+    feature:'DUBAI'
   },
   {
     id: 21,
@@ -350,10 +364,11 @@ export const tourDataThree = [
     title: "All Inclusive Ultimate Circle Island Day Tour with Lunch",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 189.25,
     spead:'Grind',
-    feature:'Advanture'
+    feature:'DUBAI'
   },
   {
     id: 22,
@@ -363,10 +378,11 @@ export const tourDataThree = [
       "Mauna Kea Summit Sunset and Stars Free Astro Photos Hilo Kona Waikoloa Pick Up",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 225.0,
     spead:'Fast',
-    feature:'Nature'
+    feature:'MIDDLE EAST'
   },
   {
     id: 23,
@@ -375,10 +391,11 @@ export const tourDataThree = [
     title: "Starlight with Sea Cave Kayaking and Loy Krathong Floating",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 943.0,
     spead:'Grind',
-    feature:'Advanture'
+    feature:'MIDDLE EAST'
   },
   {
     id: 24,
@@ -387,10 +404,11 @@ export const tourDataThree = [
     title: "Full-Day Phi Phi Islands, Maiton island Trip by Speed Catamaran",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 189.25,
     spead:'Fast',
-    feature:'Nature'
+    feature:'DUBAI'
   },
   {
     id: 25,
@@ -399,10 +417,11 @@ export const tourDataThree = [
     title: "Phi Phi Islands Day Tour from Phuket",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 225.0,
     spead:'Furious',
-    feature:'Advanture'
+    feature:'MIDDLE EAST'
   },
   {
     id: 26,
@@ -411,10 +430,11 @@ export const tourDataThree = [
     title: "Karon View Point, Big Buddha & Wat Chalong",
     rating: 5,
     ratingCount: 269,
-    duration: "4 days",
+    duration: "12/04/2025",
+    days:"4 days",
     price: 943.0,
     spead:'Furious',
-    feature:'Nature'
+    feature:'MIDDLE EAST'
   },
 ];
 

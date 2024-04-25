@@ -1,6 +1,7 @@
 "use client";
 import Calender from "@/components/common/dropdownSearch/Calender";
-import Location from "@/components/common/dropdownSearch/Location";
+import LocationFrom from "@/components/common/dropdownSearch/LocationFrom";
+import LocationTo from "@/components/common/dropdownSearch/LocationTo";
 import TourType from "@/components/common/dropdownSearch/TourType";
 import { useRouter } from "next/navigation";
 
@@ -51,12 +52,13 @@ const slides = [
 export default function Hero7() {
   const router = useRouter();
   const [currentActiveDD, setCurrentActiveDD] = useState("");
-  const [location, setLocation] = useState("");
+  const [locationFrom, setLocationFrom] = useState("");
+  const [locationTo, setLocationTo] = useState("");
   const [calender, setCalender] = useState("");
   const [tourType, setTourType] = useState("");
   useEffect(() => {
     setCurrentActiveDD("");
-  }, [location, calender, tourType, setCurrentActiveDD]);
+  }, [locationTo,locationFrom, calender, tourType, setCurrentActiveDD]);
   const dropDownContainer = useRef();
   useEffect(() => {
     const handleClick = (event) => {
@@ -167,7 +169,7 @@ export default function Hero7() {
                   className="searchFormItem__button"
                   onClick={() =>
                     setCurrentActiveDD((pre) =>
-                      pre == "location" ? "" : "location",
+                      pre == "locationFrom" ? "" : "locationFrom",
                     )
                   }
                 >
@@ -175,16 +177,43 @@ export default function Hero7() {
                     <i className="text-20 icon-pin"></i>
                   </div>
                   <div className="searchFormItem__content">
-                    <h5>Where</h5>
+                    <h5>Form</h5>
                     <div className="js-select-control-chosen">
-                      {location ? location : "Search destinations"}
+                      {locationFrom ? locationFrom : "Search destinations"}
                     </div>
                   </div>
                 </div>
+                
 
-                <Location
-                  setLocation={setLocation}
-                  active={currentActiveDD === "location"}
+                <LocationFrom
+                  setLocation={setLocationFrom}
+                  active={currentActiveDD === "locationFrom"}
+                />
+              </div>
+              <div className="searchFormItem js-select-control js-form-dd">
+                <div
+                  className="searchFormItem__button"
+                  onClick={() =>
+                    setCurrentActiveDD((pre) =>
+                      pre == "locationTo" ? "" : "locationTo",
+                    )
+                  }
+                >
+                  <div className="searchFormItem__icon size-50 rounded-full border-1 flex-center">
+                    <i className="text-20 icon-pin"></i>
+                  </div>
+                  <div className="searchFormItem__content">
+                    <h5>To</h5>
+                    <div className="js-select-control-chosen">
+                      {locationTo ? locationTo : "Search destinations"}
+                    </div>
+                  </div>
+                </div>
+                
+
+                <LocationTo
+                  setLocation={setLocationTo}
+                  active={currentActiveDD === "locationTo"}
                 />
               </div>
 
@@ -202,8 +231,8 @@ export default function Hero7() {
                   </div>
                   <div className="searchFormItem__content">
                     <h5>When</h5>
-                    <div>
-                      <span className="js-first-date">
+                    <div className="js-select-control-chosen ">
+                      <span className="js-first-date ">
                         <Calender active={currentActiveDD === "calender"} />
                       </span>
                       <span className="js-last-date"></span>
@@ -217,6 +246,31 @@ export default function Hero7() {
                   className="searchFormItem__button"
                   onClick={() =>
                     setCurrentActiveDD((pre) =>
+                      pre == "tourType1" ? "" : "tourType1",
+                    )
+                  }
+                >
+                  <div className="searchFormItem__icon size-50 rounded-full border-1 flex-center">
+                    <i className="text-20 icon-flag"></i>
+                  </div>
+                  <div className="searchFormItem__content">
+                    <h5>Traveller(s)</h5>
+                    <div className="js-select-control-chosen">
+                      {tourType ? tourType : "All tour"}
+                    </div>
+                  </div>
+                </div>
+
+                <TourType
+                  setTourType={setTourType}
+                  active={currentActiveDD === "tourType1"}
+                />
+              </div>
+              <div className="searchFormItem js-select-control js-form-dd">
+                <div
+                  className="searchFormItem__button"
+                  onClick={() =>
+                    setCurrentActiveDD((pre) =>
                       pre == "tourType" ? "" : "tourType",
                     )
                   }
@@ -225,7 +279,7 @@ export default function Hero7() {
                     <i className="text-20 icon-flag"></i>
                   </div>
                   <div className="searchFormItem__content">
-                    <h5>Tour Type</h5>
+                    <h5>Airlines</h5>
                     <div className="js-select-control-chosen">
                       {tourType ? tourType : "All tour"}
                     </div>

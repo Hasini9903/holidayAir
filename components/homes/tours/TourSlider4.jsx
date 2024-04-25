@@ -8,10 +8,10 @@ import Stars from "@/components/common/Stars";
 import { filterTour } from "@/data/tours";
 import Image from "next/image";
 import Link from "next/link";
-const travelStayles = ["Advanture", "Nature", "Food"];
+const travelStayles = ["ASIA", "MIDDLE EAST", "DUBAI"];
 export default function TourSlider4() {
   const [filtered, setFiltered] = useState(filterTour);
-  const [travelStyle, setTravelStyle] = useState("Advanture");
+  const [travelStyle, setTravelStyle] = useState("ASIA");
   useEffect(() => {
     if (travelStyle) {
       setFiltered([...filterTour.filter((elm) => elm.feature == travelStyle)]);
@@ -20,13 +20,13 @@ export default function TourSlider4() {
     }
   }, [travelStyle]);
   return (
-    <section className="layout-pt-xl layout-pb-xl bg-accent-1-05">
+    <section className="layout-pt-xl layout-pb-sm bg-accent-1-05">
       <div className="container">
         <div className="tabs -pills-4 js-tabs">
           <div className="row y-gap-10 justify-between items-end y-gap-10">
             <div className="col-auto">
               <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
-                Featured Trips
+              FLIGHT OFFERS
               </h2>
             </div>
 
@@ -108,31 +108,44 @@ export default function TourSlider4() {
                           </div>
 
                           <div className="tourCard__content px-20 py-10">
-                            <div className="tourCard__location d-flex items-center text-13 text-light-2">
-                              <i className="icon-pin d-flex text-16 text-light-2 mr-5"></i>
-                              {elm.location}
-                            </div>
+                            <div className="d-flex justify-between items-center" >
+                              <div className="tourCard__location d-flex items-center text-13 text-light-2">
+                              <i className="icon-calendar text-16 mr-5"></i>
+                                {elm.duration}
+                              </div>
+                              <div className="tourCard__location d-flex items-center text-13 text-light-2">
+                              <i className="icon-calendar text-16 mr-5"></i>
+                                {elm.duration}
+                              </div>
 
+                            </div>
                             <h3 className="tourCard__title text-16 fw-500 mt-5">
                               <span>{elm.title}</span>
                             </h3>
 
                             <div className="tourCard__rating text-13 mt-5">
                               <div className="d-flex items-center">
-                                <div className="d-flex x-gap-5 pr-10">
+                              <Image
+                                width={50}
+                                height={20}
+                                src="/img/tourCards/1/ba.png"
+                                alt="image"
+                                className=""
+                              />
+                                {/* <div className="d-flex x-gap-5 pr-10">
                                   <Stars star={elm.rating} />
                                 </div>
 
                                 <span className="text-dark-1 text-13">
                                   {elm.rating} ({elm.ratingCount})
-                                </span>
+                                </span> */}
                               </div>
                             </div>
 
                             <div className="d-flex justify-between items-center border-1-top text-13 text-dark-1 pt-10 mt-10">
                               <div className="d-flex items-center">
-                                <i className="icon-clock text-16 mr-5"></i>
-                                {elm.duration}
+                                {/* <i className="icon-clock text-16 mr-5"></i>
+                                {elm.duration} */}
                               </div>
 
                               <div>
