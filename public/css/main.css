@@ -3263,7 +3263,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer.-type-1 .footerSocials__icons > *:hover {
   background-color: var(--color-accent-1) !important;
-  color: white !important;
+  
 }
 
 .footer.-type-1.-dark .footer__bg {
@@ -3272,11 +3272,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer.-type-1.-dark h4 {
-  color: white;
+  color: black;
 }
 
 .footer.-type-1.-dark p {
-  color: white;
+  color: black;
 }
 
 .footer.-type-1.-round .footer__bg {

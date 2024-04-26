@@ -17,8 +17,8 @@ import PopulerTours from "@/components/homes/tours/PopulerTours";
 import TourSlider2 from "@/components/homes/tours/TourSlider2";
 import TourSlider3 from "@/components/homes/tours/TourSlider3";
 import TourSlider4 from "@/components/homes/tours/TourSlider4";
-import TourSlider5 from "@/components/homes/tours/TourSlider5";
-import FooterFive from "@/components/layout/footers/FooterFive";
+
+import FooterTwo from "@/components/layout/footers/FooterTwo";
 import Header6 from "@/components/layout/header/Header6";
 import React from "react";
 
@@ -44,7 +44,9 @@ export default function Home() {
         </div>
         
         <BrandsOne/>
-        <FooterFive />
+        
+        <FooterTwo />
+        
     </main>
   );
 }

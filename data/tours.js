@@ -57,7 +57,7 @@ export const tourData = [
   },
   {
     id: 5,
-    imageSrc: "/img/tourCards/1/5.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "Paris, France",
     title: "Space Center Houston Admission Ticket",
     ratingCount: 243,
@@ -70,7 +70,7 @@ export const tourData = [
   },
   {
     id: 6,
-    imageSrc: "/img/tourCards/1/6.png",
+    imageSrc: "/img/tourCards/1/trip1.png",
     location: "New York, USA",
     title: "Clear Kayak Tour of Shell Key Preserve and Tampa  ",
     ratingCount: 243,
@@ -83,7 +83,7 @@ export const tourData = [
   },
   {
     id: 7,
-    imageSrc: "/img/tourCards/1/7.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "London, UK",
     title: "History and Hauntings of Salem Guided Walking ",
     ratingCount: 243,
@@ -96,7 +96,7 @@ export const tourData = [
   },
   {
     id: 8,
-    imageSrc: "/img/tourCards/1/9.png",
+    imageSrc: "/img/tourCards/1/trip1.png",
     location: "New York, USA",
     title:
       "Mauna Kea Summit Sunset and Stars Free Astro Photos ",
@@ -273,7 +273,7 @@ export const tourDataTwo = [
 export const tourDataThree = [
   {
     id: 15,
-    imageSrc: "/img/tourCards/1/1.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "Paris, France",
     title: "Centipede Tour - Guided Arizona Desert Tour by ATV",
     rating: 5,
@@ -288,7 +288,7 @@ export const tourDataThree = [
   },
   {
     id: 16,
-    imageSrc: "/img/tourCards/1/2.png",
+    imageSrc: "/img/tourCards/1/trip1.png",
     location: "New York, USA",
     days:"4 days",
     title: "Molokini and Turtle Town Snorkeling Adventure ",
@@ -303,7 +303,7 @@ export const tourDataThree = [
   },
   {
     id: 17,
-    imageSrc: "/img/tourCards/1/3.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "London, UK",
     title: "Westminster Walking Tour & Westminster Abbey Entry",
     rating: 5,
@@ -318,7 +318,7 @@ export const tourDataThree = [
   },
   {
     id: 18,
-    imageSrc: "/img/tourCards/1/4.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "Paris, France",
     title: "Space Center Houston Admission Ticket",
     rating: 5,
@@ -333,7 +333,7 @@ export const tourDataThree = [
   },
   {
     id: 19,
-    imageSrc: "/img/tourCards/1/5.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "New York, USA",
     title: "Clear Kayak Tour of Shell Key Preserve and Tampa ",
     rating: 5,
@@ -348,7 +348,7 @@ export const tourDataThree = [
   },
   {
     id: 20,
-    imageSrc: "/img/tourCards/1/6.png",
+    imageSrc: "/img/tourCards/1/trip1.png",
     location: "London, UK",
     title: "History and Hauntings of Salem Guided Walking Tour",
     rating: 5,
@@ -363,7 +363,7 @@ export const tourDataThree = [
   },
   {
     id: 21,
-    imageSrc: "/img/tourCards/1/7.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "Paris, France",
     title: "All Inclusive Ultimate Circle Island Day Tour ",
     rating: 5,
@@ -376,7 +376,7 @@ export const tourDataThree = [
   },
   {
     id: 22,
-    imageSrc: "/img/tourCards/1/8.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "New York, USA",
     title:
       "Mauna Kea Summit Sunset and Stars Free Astro Photos",
@@ -390,7 +390,7 @@ export const tourDataThree = [
   },
   {
     id: 23,
-    imageSrc: "/img/tourCards/1/9.png",
+    imageSrc: "/img/tourCards/1/trip1.png",
     location: "London, UK",
     title: "Starlight with Sea Cave Kayaking and Loy Krathong ",
     rating: 5,
@@ -403,7 +403,7 @@ export const tourDataThree = [
   },
   {
     id: 24,
-    imageSrc: "/img/tourCards/1/10.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "Paris, France",
     title: "Full-Day Phi Phi Islands, Maiton island Trip by Speed",
     rating: 5,
@@ -416,7 +416,7 @@ export const tourDataThree = [
   },
   {
     id: 25,
-    imageSrc: "/img/tourCards/1/11.png",
+    imageSrc: "/img/tourCards/1/trip2.png",
     location: "New York, USA",
     title: "Phi Phi Islands Day Tour from Phuket",
     rating: 5,
@@ -429,7 +429,7 @@ export const tourDataThree = [
   },
   {
     id: 26,
-    imageSrc: "/img/tourCards/1/12.png",
+    imageSrc: "/img/tourCards/1/trip1.png",
     location: "London, UK",
     title: "Karon View Point, Big Buddha & Wat Chalong",
     rating: 5,

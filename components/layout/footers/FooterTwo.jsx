@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function FooterTwo() {
   return (
-    <footer className="footer -type-1 -dark bg-dark-1 text-white">
+    <footer className="footer -type-1 -dark accent-1-dark ">
       <div className="footer__main">
         <div className="footer__bg">
           <Image
@@ -29,7 +29,7 @@ export default function FooterTwo() {
                   <div className="col-auto">
                     <div className="text-20 fw-500">
                       Speak to our expert at
-                      <span className="">1-800-453-6744</span>
+                      <span className=""> +44 (0) 208 44 00 770</span>
                     </div>
                   </div>
                 </div>
@@ -50,15 +50,19 @@ export default function FooterTwo() {
           <div className="footer__content">
             <div className="row y-gap-40 justify-between">
               <div className="col-lg-4 col-md-6">
-                <h4 className="text-20 fw-500">Contact</h4>
+                <h4 className="text-20 text-black fw-500">Contact</h4>
 
                 <div className="y-gap-10 mt-20">
                   <a className="d-block" href="#">
-                    328 Queensberry Street, North Melbourne VIC3051, Australia.
+                  130 High Street Barnet EN5 5XQ ,United Kingdom
                   </a>
                   <a className="d-block" href="#">
-                    hi@viatours.com
+                  info@holidayair.com
                   </a>
+                  <a className="d-block" href="#">
+                  +44 7534433111 
+                  </a>
+                  {/* <span className="">After office Hours ( Emergency )</span> */}
                 </div>
               </div>
 

@@ -46,6 +46,7 @@ export default function TestimonialOne() {
                     el: ".pbutton2",
                     clickable: true,
                   }}
+                  
                   modules={[Pagination]}
                   breakpoints={{
                     500: {
