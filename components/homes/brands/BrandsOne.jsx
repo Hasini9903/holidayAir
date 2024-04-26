@@ -44,14 +44,14 @@ export default function BrandsOne() {
             }}
           >
             {clients.map((elm, i) => (
-              <SwiperSlide key={i}>
+              <SwiperSlide key={i}style={{marginRight: 0}}>
                 <div key={i} className=" d-flex justify-center items-center ">
                   <Image
-                    width={140}
-                    height={90}
+                    width={180}
+                    height={200}
                     style={{
-                      height: "30px",
-                      width: "100px",
+                      height: "200px",
+                      width: "150px",
                       objectFit: "contain",
                     }}
                     src={elm}

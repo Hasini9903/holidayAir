@@ -64,7 +64,7 @@ export default function TestimonialOne() {
                   }}
                 >
                   {testimonialsOne.map((elm, i) => (
-                    <SwiperSlide key={i}>
+                    <SwiperSlide key={i} >
                       <div className="testimonials -type-1 pt-10 text-center">
                         <div className="testimonials__image size-100 rounded-full">
                           <Image
