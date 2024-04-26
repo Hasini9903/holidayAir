@@ -4889,6 +4889,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 1.6;
 }
+@media (max-width: 767px) {
+  .mobile-width {
+    width: 250px;
+  }
+}
 
 .searchForm.-type-2 .searchFormItem__content > div {
   font-size: 14px;

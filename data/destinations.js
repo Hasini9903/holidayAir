@@ -309,33 +309,39 @@ export const destinationsSix = [
 export const destinationsSeven = [
   {
     id: 1,
-    title: "Cruises",
-    imgSrc: "/img/features/2/1.jpg",
+    title: "Sydney",
+    subtitle:"Sydney Opera House",
+    imgSrc: "/img/features/2/Sydney.jpg",
   },
   {
     id: 2,
-    title: "Beach Tours",
-    imgSrc: "/img/features/2/2.jpg",
+    title: "Benjamin Constant",
+    subtitle:"Brazil Opera House",
+    imgSrc: "/img/features/2/Brazil.jpg",
   },
   {
     id: 3,
-    title: "City Tours",
-    imgSrc: "/img/features/2/3.jpg",
+    title: "Abana",
+    subtitle:"Turkey Mosque",
+    imgSrc: "/img/features/2/abana.jpg",
   },
   {
     id: 4,
-    title: "Museum Tour",
-    imgSrc: "/img/features/2/4.jpg",
+    title: "Abu Dhabi",
+    subtitle:"Dubai Burj Khalifa",
+    imgSrc: "/img/features/2/AbuDhabi.jpg",
   },
   {
     id: 5,
-    title: "Food",
-    imgSrc: "/img/features/2/5.jpg",
+    title: "Newton",
+    subtitle:"Statue of Liberty",
+    imgSrc: "/img/features/2/Newton.jpg",
   },
   {
     id: 6,
-    title: "Hiking",
-    imgSrc: "/img/features/2/6.jpg",
+    title: "Maldives",
+    subtitle:"Maldives Island",
+    imgSrc: "/img/features/2/Maldives.jpg",
   },
 ];
 

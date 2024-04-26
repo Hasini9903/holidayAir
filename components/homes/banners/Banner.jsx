@@ -9,7 +9,7 @@ export default function Banner() {
         <Image width={1530} height={600} src="/img/cta/2/bg.png" alt="image" />
 
         <div className="cta__image">
-          <Image width={750} height={600} src="/img/cta/2/1.png" alt="image" />
+          <Image width={750} height={600} src="/img/cta/2/t_banner.jpg" alt="image" />
           <Image
             width="40"
             height="600"

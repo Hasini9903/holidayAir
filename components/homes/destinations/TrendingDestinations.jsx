@@ -10,7 +10,7 @@ export default function TrendingDestinations() {
         <div className="row justify-between items-end y-gap-10">
           <div className="col-auto">
             <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
-              Trending Destinations
+            HOLIDAY PACKAGES
             </h2>
           </div>
 
@@ -50,7 +50,9 @@ export default function TrendingDestinations() {
 
               <div className="featureCard__content">
                 <h4 className="text-white">{elm.title}</h4>
+                
               </div>
+              <p className="text-white text-xs ">{elm.subtitle}</p>
             </Link>
           ))}
         </div>

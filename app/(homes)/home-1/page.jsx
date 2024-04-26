@@ -1,4 +1,6 @@
 import ArticlesOne from "@/components/homes/articles/ArticlesOne";
+import ArticlesThree from "@/components/homes/articles/ArticlesThree";
+import ArticlesTwo from "@/components/homes/articles/ArticlesTwo";
 import Banner from "@/components/homes/banners/Banner";
 import Banner11 from "@/components/homes/banners/Banner11";
 import BrandsFour from "@/components/homes/brands/BannerFour";
@@ -10,6 +12,7 @@ import TrendingDestinations from "@/components/homes/destinations/TrendingDestin
 import Hero7 from "@/components/homes/heros/Hero7";
 
 import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
+
 import PopulerTours from "@/components/homes/tours/PopulerTours";
 import TourSlider2 from "@/components/homes/tours/TourSlider2";
 import TourSlider3 from "@/components/homes/tours/TourSlider3";
@@ -29,15 +32,18 @@ export default function Home() {
         <TourSlider2 />
         <PopulerTours />
         <BrandsFour/>
+        
         <TrendingDestinations />
         <Banner />
-        
-        <TopAttractions />
+        <ArticlesOne />
+        {/* <TopAttractions /> */}
         <div className="bg-accent-1-05">
           <TestimonialOne />
+          {/* <TestimonialsThree /> */}
+
         </div>
-        <Banner11 />
-        <ArticlesOne />
+        
+        <BrandsOne/>
         <FooterFive />
     </main>
   );

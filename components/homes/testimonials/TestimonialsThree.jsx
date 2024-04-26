@@ -33,7 +33,7 @@ export default function TestimonialsThree() {
     }
   };
   return (
-    <section className="layout-pt-xl layout-pb-xl bg-light-3">
+    <section className="layout-pt-xl layout-pb-xl  bg-light-3">
       <div className="container">
         <div className="row justify-center text-center">
           <div className="col-auto">

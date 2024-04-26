@@ -3,6 +3,8 @@ import { blogs } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Stars from "@/components/common/Stars";
+
 
 export default function ArticlesOne() {
   return (
@@ -15,7 +17,7 @@ export default function ArticlesOne() {
               data-aos-delay=""
               className="text-30 md:text-24 "
             >
-              Travel Articles
+              HOTELS
             </h2>
           </div>
 
@@ -38,7 +40,7 @@ export default function ArticlesOne() {
           className="row y-gap-30 pt-40 sm:pt-20"
         >
           {blogs.slice(0, 3).map((elm, i) => (
-            <div key={i} className="col-lg-4 col-md-6">
+            <div key={i} className="col-lg-4 col-md-4">
               <Link
                 href={`/blog-single/${elm.id}`}
                 className="blogCard -type-1"
@@ -57,14 +59,24 @@ export default function ArticlesOne() {
 
                 <div className="blogCard__content mt-30">
                   <div className="blogCard__info text-14">
-                    <div className="lh-13">{elm.date}</div>
+                    <div className="lh-13">${elm.price}</div>
                     <div className="blogCard__line"></div>
-                    <div className="lh-13">By {elm.author}</div>
+                    <div className="lh-13 text-15 fw-900">{elm.author}</div>
                   </div>
+                  
 
-                  <h3 className="blogCard__title text-18 fw-500 mt-10">
+                  <p className="blogCard__title text-13 fw-500 mt-10">
                     {elm.title}
-                  </h3>
+                  </p>
+                  <div className="d-flex">
+                          <div className="d-flex x-gap-5">
+                            <Stars star={elm.rating} />
+                          </div>
+
+                          <span className="text-dark-1 ml-10">
+                            {elm.rating} ({elm.ratingCount})
+                          </span>
+                  </div>
                 </div>
               </Link>
             </div>

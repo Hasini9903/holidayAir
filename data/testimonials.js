@@ -1,28 +1,28 @@
 export const testimonialsOne = [
   {
     id: 1,
-    imageSrc: "/img/testimonials/1/2.png",
+    imageSrc: "/img/testimonials/1/u2.jpg",
     title: "Excellent Service!",
     content:
-      "I had an amazing experience with this company. The service was top-notch, and the staff was incredibly friendly. I highly recommend them!",
+      "Thank you very much for your help. May I take this opportunity to indicate the excellent service we get from your travel agency and you. You are very helpful, kind, patient, calm, collective and have a very good understanding of the needs of passengers.",
     authorName: "John Smith",
     authorRole: "Traveler",
   },
   {
     id: 2,
-    imageSrc: "/img/testimonials/1/2.png",
+    imageSrc: "/img/testimonials/1/u2.jpg",
     title: "Great Adventures!",
     content:
-      "The tours in this website are great. I had been really enjoying with my family! The team is very professional and takes care of the customers. Will surely recommend it to my friends.",
+      "I always trust Holiday Air Travel to take care of my travel arrangements . My mother has mobility problems and everything normally are taken care of whenever she travels , from her assistance at the airport to her seating and meal preference. Usual good and reliable service from start to finish.",
     authorName: "Alice Johnson",
     authorRole: "Explorer",
   },
   {
     id: 3,
-    imageSrc: "/img/testimonials/1/2.png",
+    imageSrc: "/img/testimonials/1/u2.jpg",
     title: "Awesome Experience!",
     content:
-      "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
+      "Holiday Air Travel has been providing travel services to the Mauritian Community for many years . I have known them since I was an adolescent . My parents have used them and now my children and grand children use their services . As always perfect Friendly Service , Fast, reliable with very good knowledge of the destinations and above all very competitive prices.",
     authorName: "David Williams",
     authorRole: "Adventurer",
   },
