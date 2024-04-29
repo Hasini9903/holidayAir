@@ -14,8 +14,8 @@ export default function NotFound() {
       <main>
         <Header1 />
         <section className="nopage mt-header">
-          <div className="container">
-            <div className="row y-gap-30 justify-between items-center">
+          <div className="container">justify
+            <div className="row y-gap-30 -between items-center">
               <div className="col-xl-6 col-lg-6">
                 <Image
                   width="629"
