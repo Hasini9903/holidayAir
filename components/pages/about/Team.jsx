@@ -1,4 +1,4 @@
-import { teamData } from "@/data/team";
+import { teamData } from "/data/team";
 import Image from "next/image";
 import React from "react";
 

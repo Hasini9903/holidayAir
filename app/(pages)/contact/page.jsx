@@ -1,8 +1,9 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
-import Header1 from "@/components/layout/header/Header1";
-import ContactForm from "@/components/pages/contact/ContactForm";
-import Locations from "@/components/pages/contact/Locations";
-import Map from "@/components/pages/contact/Map";
+import FooterOne from "../../../components/layout/footers/FooterTwo";
+import Header1 from "../../../components/layout/header/Header6";
+import Hero from "../../../components/pages/contact/Hero";
+import ContactForm from "../../../components/pages/contact/ContactForm";
+import Locations from "../../../components/pages/contact/Locations";
+import Map from "../../../components/pages/contact/Map";
 import React from "react";
 
 export const metadata = {
@@ -15,8 +16,9 @@ export default function page() {
     <>
       <main>
         <Header1 />
-        <Map />
+        <Hero/>
         <Locations />
+        <Map />
         <ContactForm />
 
         <FooterOne />

@@ -1,4 +1,4 @@
-import { destinationsSeven } from "@/data/destinations";
+import { destinationsSeven } from "/data/destinations";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

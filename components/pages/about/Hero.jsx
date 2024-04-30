@@ -3,12 +3,13 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="pageHeader -type-1">
+    <section className="pageHeader -type-1 ">
+      <div className="">
       <div className="pageHeader__bg">
         <Image
           width={1800}
           height={500}
-          src="/img/pageHeader/1.jpg"
+          src="/img/pageHeader/contact.jpg"
           alt="image"
         />
         <Image
@@ -20,13 +21,13 @@ export default function Hero() {
         />
       </div>
 
-      <div className="container">
+      <div className="container bg-accent-2-05 my-10">
         <div className="row justify-center">
           <div className="col-12">
             <div className="pageHeader__content">
               <h1 className="pageHeader__title">About Us</h1>
 
-              <p className="pageHeader__text">
+              <p className="pageHeader__text pb-15">
                 A tropical paradise made for animal lovers replete with monkey
                 caves, dog foundations, and dolphins in the wild.
               </p>
@@ -34,6 +35,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 }

@@ -23,5 +23,10 @@
     "react-multi-date-picker": "^4.4.1",
     "recharts": "^2.9.3",
     "swiper": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "^18.3.1",
+    "typescript": "5.4.5"
   }
 }

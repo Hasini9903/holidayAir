@@ -1,5 +1,5 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
-import Header1 from "@/components/layout/header/Header1";
+import FooterOne from "../components/layout/footers/FooterOne";
+import Header1 from "../components/layout/header/Header1";
 import Image from "next/image";
 import React from "react";
 

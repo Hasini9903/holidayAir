@@ -224,7 +224,7 @@ function MyComponent() {
         <></>
       )}
 
-      <div className="map__shape">
+      {/* <div className="map__shape">
         <svg
           width="1800"
           height="40"
@@ -269,7 +269,7 @@ function MyComponent() {
             fill="white"
           />
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }

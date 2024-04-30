@@ -1,9 +1,9 @@
-import { articles } from "@/data/articles";
-import { blogs } from "@/data/blogs";
+import { articles } from "/data/articles";
+import { blogs } from "/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Stars from "@/components/common/Stars";
+import Stars from "../../../components/common/Stars";
 
 
 export default function ArticlesOne() {

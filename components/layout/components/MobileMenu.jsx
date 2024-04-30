@@ -1,6 +1,6 @@
 "use client";
 
-import { menuData } from "@/data/mobileMenu";
+import { menuData } from "/data/mobileMenu";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";

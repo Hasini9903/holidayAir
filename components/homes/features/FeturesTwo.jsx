@@ -1,4 +1,4 @@
-import { featuresTwo } from "@/data/features";
+import { featuresTwo } from "/data/features";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -12,6 +12,7 @@ export default function FeturesTwo() {
             <Image
               width={1290}
               height={630}
+              
               src="/img/about/1/1.png"
               alt="image"
               className="img-ratio rounded-12 md:rounded-0"
@@ -64,7 +65,7 @@ export default function FeturesTwo() {
                       src={elm.iconSrc}
                       alt="icon"
                     />
-                    <div className="text-40 fw-700 text-accent-1 mt-20 lh-14">
+                    <div className="text-40 fw-700 text-blue-1  mt-20 lh-14">
                       {elm.value}
                     </div>
                     <div>{elm.label}</div>

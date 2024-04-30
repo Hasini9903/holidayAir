@@ -1,8 +1,8 @@
 "use client";
-import Calender from "@/components/common/dropdownSearch/Calender";
-import LocationFrom from "@/components/common/dropdownSearch/LocationFrom";
-import LocationTo from "@/components/common/dropdownSearch/LocationTo";
-import TourType from "@/components/common/dropdownSearch/TourType";
+import Calender from "../../../components/common/dropdownSearch/Calender";
+import LocationFrom from "../../../components/common/dropdownSearch/LocationFrom";
+import LocationTo from "../../../components/common/dropdownSearch/LocationTo";
+import TourType from "../../../components/common/dropdownSearch/TourType";
 import { useRouter } from "next/navigation";
 
 import { Swiper, SwiperSlide } from "swiper/react";

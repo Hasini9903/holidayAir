@@ -10672,7 +10672,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-accent-2-05 {
-  background-color: rgba(74, 67, 196, 0.05);
+  background-color: rgba(60, 132, 214, 0.3);
 }
 
 .bg-accent-2-03 {
@@ -10966,7 +10966,10 @@ h1, h2, h3, h4, h5, h6 {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
+.w-fit {
+  width: fit-content; 
+  margin: 0 auto; 
+}
 .img-ratio {
   position: absolute;
   top: 0;

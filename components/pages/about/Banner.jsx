@@ -1,6 +1,6 @@
 "use client";
 
-import ModalVideoComponent from "@/components/common/ModalVideo";
+import ModalVideoComponent from "../../../components/common/ModalVideo";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -8,19 +8,20 @@ export default function Banner() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <section className=" layout-pt-xl">
-        <div className="video relative container">
-          <div className="video__bg">
-            <Image
-              width={1290}
+      <section className=" layout-pt-sm">
+        <div className="container">
+          <div className="justify-center d-flex">
+            <video
+              width={980}
               height={550}
-              src="/img/misc/1.png"
+              src="/img/misc/about.mp4"
               alt="image"
               className="rounded-12"
+              controls  // Add the controls attribute to display the play button and video controls
             />
           </div>
 
-          <div className="row justify-center pb-50 md:pb-0">
+          <div className="row justify-center  md:pb-0">
             <div className="col-auto">
               <div
                 onClick={() => setIsOpen(true)}
@@ -64,11 +65,7 @@ export default function Banner() {
           </div>
         </div>
       </section>
-      <ModalVideoComponent
-        videoId={"ANYfx4-jyqY"}
-        isOpen={isOpen}
-        setIsOpen={setIsOpen}
-      />
+      
     </>
   );
 }

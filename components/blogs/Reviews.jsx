@@ -1,4 +1,4 @@
-import { reviews } from "@/data/tourSingleContent";
+import { reviews } from "/data/tourSingleContent";
 import React from "react";
 import Stars from "../common/Stars";
 import Image from "next/image";

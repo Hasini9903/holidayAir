@@ -1,4 +1,4 @@
-import { features } from "@/data/features";
+import { features } from "/data/features";
 import Image from "next/image";
 import React from "react";
 

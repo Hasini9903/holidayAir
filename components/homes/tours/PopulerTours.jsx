@@ -1,5 +1,5 @@
-import Stars from "@/components/common/Stars";
-import { tourData } from "@/data/tours";
+
+import { tourData } from "/data/tours";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

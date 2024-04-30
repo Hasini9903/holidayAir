@@ -2,7 +2,7 @@
 import { Autoplay } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { clients } from "@/data/clients";
+import { clients } from "/data/clients";
 import Image from "next/image";
 import React from "react";
 

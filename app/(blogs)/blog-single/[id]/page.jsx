@@ -1,8 +1,9 @@
-import FooterOne from "@/components/layout/footers/FooterOne";
-import Header1 from "@/components/layout/header/Header1";
-import Hero1 from "@/components/blogs/Hero1";
-import BlogSingle from "@/components/blogs/BlogSingle";
-import { blogs } from "@/data/blogs";
+import Hero1 from "../../../../components/blogs/Hero1";
+
+import BlogSingle from "../../../../components/blogs/BlogSingle";
+import { blogs } from "/data/blogs";
+import Header6 from "../../../../components/layout/header/Header6";
+import FooterTwo from "../../../../components/layout/footers/FooterTwo";
 
 export const metadata = {
   title: "Blog-single || ViaTour - Travel & Tour React NextJS Template",
@@ -16,10 +17,10 @@ export default function page({ params }) {
   return (
     <>
       <main>
-        <Header1 />
+        <Header6 />
         <Hero1 blog={blog} />
         <BlogSingle />
-        <FooterOne />
+        <FooterTwo/>
       </main>
     </>
   );

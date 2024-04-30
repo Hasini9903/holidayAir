@@ -4,8 +4,8 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
-import Stars from "@/components/common/Stars";
-import { filterTour } from "@/data/tours";
+
+import { filterTour } from "/data/tours";
 import Image from "next/image";
 import Link from "next/link";
 const travelStayles = ["ASIA", "MIDDLE EAST", "DUBAI"];

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { locations } from "@/data/searchDDLocationsTo";
+import { locations } from "/data/searchDDLocationsTo";
 export default function Location({ active, setLocation }) {
   return (
     <div

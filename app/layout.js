@@ -1,9 +1,9 @@
-import ScrollToTop from "@/components/common/ScrollToTop";
+import ScrollToTop from "../components/common/ScrollToTop";
 import "../public/css/style.css";
 
 import { DM_Sans } from "next/font/google";
-import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
-import Wrapper from "@/components/layout/Wrapper";
+import ScrollTopBehaviour from "../components/common/ScrollTopBehavier";
+import Wrapper from "../components/layout/Wrapper";
 const dmsans = DM_Sans({
   weight: ["400", "500", "700"],
   style: ["normal", "italic"],
@@ -19,7 +19,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <script
+          src="https://kit.fontawesome.com/yourcode.js"
+          crossorigin="anonymous"
+        ></script>
       </head>
       <body className={dmsans.className}>
         <Wrapper>{children}</Wrapper>

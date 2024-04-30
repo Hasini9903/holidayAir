@@ -7,21 +7,13 @@ export default function Information() {
         <div className="row y-gap-20 justify-between">
           <div className="col-lg-6">
             <h2 className="text-30 fw-700">
-              Hello. Our agency has been present for over 29 years in the
-              market. We make the most of all our customers.
+            We are known for our quality and service. We make the most of all our customers.
             </h2>
           </div>
 
           <div className="col-lg-5">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              <br />
-              <br />
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+            Holiday Air Travel is a leading travel agency operating a lean and an efficient business, which has allowed us to retain a competitive advantage for the benefit of our customers.  We take great pride and care to ensure that all our customers are fully satisfied with their experiences. Indeed, our growth is driven by repeat customers and their recommendations.
             </p>
 
             <button className="button -md -dark-1 bg-accent-1 text-white mt-30">
